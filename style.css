@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #77ab85;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#game {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  border: 2px solid #353232;
+  background: rgb(152, 190, 219);
+  overflow: hidden;
+}
+
+#basket {
+  width: 80px;
+  height: 20px;
+  background: rgb(255, 0, 0);
+  position: absolute;
+  bottom: 0;
+  left: 160px;
+  border-radius: 10px;
+}
+
+#egg {
+  width: 20px;
+  height: 30px;
+  background: rgb(0, 219, 253);
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
